@@ -1,0 +1,16 @@
+                    __  ________  ____  __
+                   /  |/  / __/ |/ / / / /
+# # # # # # # # # / /|_/ / _//    / /_/ / # # # # # # # # 
+#                /_/  /_/___/_/|_/\____/                #
+#                                                       #
+#              OPERACIONES DE LA CACULADORA             #
+#                                                       #
+#     1 - SUMA                                          #
+#     2 - RESTA                                         #
+#     3 - MULTIPLICACION                                #
+#     4 - DIVISION                                      #
+#     @ - HISTORIAL                                     #
+#     $ - BORRAR HISTORIAL                              #
+#     X - SALIR                                         #
+#                                                       #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #
