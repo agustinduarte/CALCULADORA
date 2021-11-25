@@ -49,8 +49,6 @@ if exist %USERPROFILE%\Documents\historial.txt (
 ) else (
     echo EL HISTORIAL ESTA VACIO!
 )
-::if not exist %USERPROFILE%\Documents\historial.txt echo EL HISTORIAL ESTA VACIO! 
-::if exist %USERPROFILE%\Documents\historial.txt type %USERPROFILE%\Documents\historial.txt
 goto tecla
 
 :borrar
