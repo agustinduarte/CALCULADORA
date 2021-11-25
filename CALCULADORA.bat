@@ -57,7 +57,7 @@ goto tecla
 :borrar
 if not exist %USERPROFILE%\Documents\historial.txt (
     echo.
-    echo NO HAY HISTORIAL QUE BORRAR
+    echo HISTORIAL BORRADO!
     goto tecla
 )
 if exist %USERPROFILE%\Documents\historial.txt (
