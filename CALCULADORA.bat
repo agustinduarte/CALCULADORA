@@ -55,13 +55,13 @@ if exist %USERPROFILE%\Documents\historial.txt (
 goto tecla
 
 :borrar
-if not exist %USERPROFILE%\Documents\historial.txt (
+
+if exist %USERPROFILE%\Documents\historial.txt (
+    del %USERPROFILE%\Documents\historial.txt /A:H
     echo.
     echo HISTORIAL BORRADO!
     goto tecla
-)
-if exist %USERPROFILE%\Documents\historial.txt (
-    del %USERPROFILE%\Documents\historial.txt /A:H
+) else (
     echo.
     echo HISTORIAL BORRADO!
     goto tecla
